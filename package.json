@@ -1,9 +1,11 @@
 {
   "name": "@robotmayo/coderr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Produce errors with a code property.",
   "main": "build/index.js",
-  "files": ["build/index.js"],
+  "files": [
+    "build/index.js"
+  ],
   "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
@@ -11,7 +13,10 @@
     "build:watch": "tsc -w",
     "prepublish": "npm run build:prod"
   },
-  "keywords": ["error", "code"],
+  "keywords": [
+    "error",
+    "code"
+  ],
   "author": "robotmayo",
   "license": "MIT",
   "devDependencies": {
