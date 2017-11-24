@@ -11,3 +11,7 @@ export function wrap(e: Error, code?: string): Coderr {
   k.code = code;
   return k;
 }
+
+export function cloneError(e: Error): Error {
+  return Object.assign(Object.create(Object.getPrototypeOf(e)), e);
+}
