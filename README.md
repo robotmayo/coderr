@@ -1,6 +1,6 @@
 # Coderr
 
-A small extension on errors that adds a code property and aditional values
+A small extension on errors that adds a code property
 
 `npm i @robotmayo/coderr`
 
